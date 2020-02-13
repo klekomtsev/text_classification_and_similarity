@@ -1,6 +1,6 @@
-**Project is being completed in multiple steps.**
+**Project is being completed in multiple stages with growing complexity of analysis.**
 
-Step 1:
+Sub-project 1:
 
 Goal: gender classification based on a name.
 
@@ -12,7 +12,7 @@ SVM applied on the dataset with tfidf vectorization.
 Multilayer perceptron on the dataset with tfidf vectorization.
 Recurrent neural network with LSTM layers, dropout layers and dense layers.
 
-Step 2: 
+Sub-project 2: 
 
 Goal: sentiment classification based on IMDB dataset. 
 
