@@ -2,9 +2,9 @@
 
 Step 1:
 
-Goal: Gender classification based on a name.
+Goal: gender classification based on a name.
 
-Dataset: Dataset containing 5000 first names.
+Dataset contains 5000 first names.
 
 Approach: 
 Naive Bayes on the last, last two and first character in each name.
@@ -14,7 +14,7 @@ Recurrent neural network with LSTM layers, dropout layers and dense layers.
 
 Step 2: 
 
-Goal: simple sentiment classification based on IMDB dataset. 
+Goal: sentiment classification based on IMDB dataset. 
 
 Dataset: https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
 
