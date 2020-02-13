@@ -1,4 +1,4 @@
-**Project completed in multiple steps.**
+**Project is being completed in multiple steps.**
 
 Step 1:
 
