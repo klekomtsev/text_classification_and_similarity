@@ -1,8 +1,15 @@
-**Project is being completed in multiple stages with growing complexity of analysis.**
+***Question pairs' similarity.***
 
-Sub-project 1:
+Objective: identify duplicate questions in the Quora Question Pairs dataset. Make it easier to find high quality answers to questions resulting in an improved experience for Quora writers, seekers, and readers. 
 
-Goal: gender classification based on a name.
+Dataset: https://www.kaggle.com/c/quora-question-pairs
+
+Approach: 
+GloVe for word embeddings, Siamese Neural Network using Keras.
+
+**Gender classification based on a first name.***
+
+Objective: classify a first name either as male or female.
 
 Dataset contains 5000 first names.
 
@@ -12,13 +19,4 @@ SVM applied on the dataset with tfidf vectorization.
 Multilayer perceptron on the dataset with tfidf vectorization.
 Recurrent neural network with LSTM layers, dropout layers and dense layers.
 
-Sub-project 2: 
-
-Goal: sentiment classification based on IMDB dataset. 
-
-Dataset: https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
-
-Approach: 
-Clean, preprocess (tokenize, stem and remove stop words), find uniques tokens and convert into integers.
-Apply a recurrent neural network with a bidirectional LSTM layer. 
 
