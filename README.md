@@ -1,4 +1,4 @@
-#Quora questions' similarity.
+# Quora questions' similarity.
 
 ***quora_questions_similarity/***
 
@@ -9,7 +9,7 @@ Dataset: https://www.kaggle.com/c/quora-question-pairs
 Approach: 
 GloVe for word embeddings, Siamese Neural Network using Keras.
 
-#Gender classification based on a first name.
+# Gender classification based on a first name.
 
 ***gender_classification/***
 
