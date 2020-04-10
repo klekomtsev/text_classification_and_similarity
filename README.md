@@ -1,4 +1,4 @@
-# Quora questions' similarity.
+# Prediction of duplicate questions in Quora questions dataset.
 
 ***quora_questions_similarity/***
 
