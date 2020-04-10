@@ -6,8 +6,19 @@ Objective: identify duplicate questions in the Quora Question Pairs dataset. Mak
 
 Dataset: https://www.kaggle.com/c/quora-question-pairs
 
-Approach: 
-GloVe for word embeddings, Siamese Neural Network using Keras.
+Methods: 
+
+- One-shot learning using twin neural networks with time distributed and LSTM layers. 
+
+- Questions embeddings were done using pre-trained GloVe embeddings. 
+
+Dataset info:
+
+Total number of questions pairs: 404,278
+
+Portion of not duplicate reviews: 0.63
+
+Portion of duplicate reviews: 0.37
 
 # Gender classification based on a first name.
 
@@ -18,9 +29,10 @@ Objective: classify a first name either as male or female.
 Dataset contains 5000 first names.
 
 Approach: 
-Naive Bayes on the last, last two and first character in each name.
-SVM applied on the dataset with tfidf vectorization.
-Multilayer perceptron on the dataset with tfidf vectorization.
-Recurrent neural network with LSTM layers, dropout layers and dense layers.
 
+- Apply Naive Bayes classifier in the last letter, last two letters, and the first letter of the names.
+
+- Use term-frequency times inverse document-frequency (tfidf) vectorization with 2-gram and 3-gram sequences to cerate features for SVM classifier and multilayer perceptron classifier.
+
+- Use simple integer encoding and apply a recurrent neural network with one and multiple long short-term memory (LSTM) layers and dropout layers.
 
