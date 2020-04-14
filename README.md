@@ -1,4 +1,4 @@
-# Prediction of duplicate questions in Quora questions dataset.
+# Identification of duplicate questions using twin neural networks.
 
 ***quora_questions_similarity/***
 
@@ -10,7 +10,9 @@ Methods: 
 
 - One-shot learning using twin neural networks with time distributed and LSTM layers. 
 
-- Questions embeddings were done using pre-trained GloVe embeddings. 
+- Pre-trained GloVe embeddings. 
+
+- Jaccard, Manhattan, cosine similarity metrics.
 
 Dataset info:
 
