@@ -6,6 +6,10 @@ Objective: identify duplicate questions in the Quora Question Pairs dataset. Mak
 
 Dataset: https://www.kaggle.com/c/quora-question-pairs
 
+Performance:
+
+- Best test AUC = 0.88, Precision (duplicate) = 0.75.
+
 Methods: 
 
 - One-shot learning using twin neural networks with time distributed and LSTM layers. 
