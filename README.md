@@ -26,6 +26,3 @@ Portion of not duplicate reviews: 0.63
 
 Portion of duplicate reviews: 0.37
 
-# Gender classification based on a first name.
-
-
